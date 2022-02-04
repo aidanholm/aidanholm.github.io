@@ -1,0 +1,8 @@
+baseURL = '//aidanholm.github.io'
+languageCode = 'en-us'
+title = 'alfh.xyz'
+theme = 'hugo-theme-monochrome'
+
+# From hugo-theme-monochrome: "for better quality of CSS purging in production".
+[build]
+  writeStats = true
