@@ -31,9 +31,6 @@
                 {{- block "content" . }}{{- end }}
 
                 {{ if eq .Kind "page" }}
-                    {{ if (.Params.disqus | default .Site.DisqusShortname) }}
-                        {{- partial "disqus.html" . -}}
-                    {{ end }}
                 {{ else }}
                     {{ if (.Params.disqus | default false) }}
                         {{- partial "disqus.html" . -}}
