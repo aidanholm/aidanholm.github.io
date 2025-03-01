@@ -16,15 +16,15 @@ header {
   align-items: center;
   margin: 1rem 0;
 
+  a {
+    @include text-3xl;
+    @include font-bold;
+    color: var(--color-text);
+  }
+
   .brand {
     display: flex;
     align-items: center;
-
-    a {
-      @include text-3xl;
-      @include font-bold;
-      color: var(--color-text);
-    }
 
     #sidebar_btn {
       display: flex;
