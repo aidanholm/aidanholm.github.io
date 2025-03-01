@@ -1,4 +1,4 @@
-baseURL = '//aidanholm.github.io'
+baseURL = '//alfh.xyz'
 languageCode = 'en-us'
 title = 'alfh.xyz'
 theme = 'hugo-theme-monochrome'
